@@ -1,4 +1,3 @@
-
 package com.raywenderlich.placebook.util
 
 import android.content.Context

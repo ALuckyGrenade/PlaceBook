@@ -28,6 +28,7 @@ class BookmarkInfoWindowAdapter(val context: Activity) :
   }
 
   override fun getInfoContents(marker: Marker): View? {
+
     val titleView = contents.findViewById<TextView>(R.id.title)
     titleView.text = marker.title ?: ""
 

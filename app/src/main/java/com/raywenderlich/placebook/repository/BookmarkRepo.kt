@@ -1,4 +1,3 @@
-
 package com.raywenderlich.placebook.repository
 
 import android.arch.lifecycle.LiveData
@@ -35,6 +34,7 @@ class BookmarkRepo(private val context: Context) {
   }
 
   fun createBookmark(): Bookmark {
+
     return Bookmark()
   }
 

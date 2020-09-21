@@ -1,4 +1,3 @@
-
 package com.raywenderlich.placebook.viewmodel
 
 import android.app.Application
@@ -104,6 +103,7 @@ class BookmarkDetailsViewModel(application: Application) :
                                  var placeId: String? = null) {
     fun getImage(context: Context): Bitmap? {
       id?.let {
+
         return ImageUtils.loadBitmapFromFile(context,
             Bookmark.generateImageFilename(it))
       }

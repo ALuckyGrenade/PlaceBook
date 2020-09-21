@@ -98,7 +98,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
   }
 
   private fun setupPlacesClient() {
-    Places.initialize(getApplicationContext(), "API Key"); // ***
+    Places.initialize(getApplicationContext(), "API Key"); // *
     placesClient = Places.createClient(this);
   }
 

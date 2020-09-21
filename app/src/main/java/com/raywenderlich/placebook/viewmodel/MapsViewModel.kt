@@ -1,4 +1,3 @@
-
 package com.raywenderlich.placebook.viewmodel
 
 import android.app.Application

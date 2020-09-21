@@ -1,4 +1,3 @@
-
 package com.raywenderlich.placebook.model
 
 import android.arch.persistence.room.Entity
@@ -29,6 +28,7 @@ data class Bookmark(
   }
 
   fun deleteImage(context: Context) {
+
     id?.let {
       FileUtils.deleteFile(context, generateImageFilename(it))
     }

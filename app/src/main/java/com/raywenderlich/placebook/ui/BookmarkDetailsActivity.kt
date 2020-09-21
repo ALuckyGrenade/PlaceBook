@@ -1,4 +1,3 @@
-
 package com.raywenderlich.placebook.ui
 
 import android.arch.lifecycle.Observer
@@ -35,9 +34,7 @@ class BookmarkDetailsActivity : AppCompatActivity(),
 
     photoFile = null
     try {
-
       photoFile = ImageUtils.createUniqueImageFile(this)
-
     } catch (ex: java.io.IOException) {
       return
     }

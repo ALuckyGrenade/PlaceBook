@@ -1,4 +1,3 @@
-
 package com.raywenderlich.placebook.db
 
 import android.arch.lifecycle.LiveData
@@ -9,7 +8,6 @@ import com.raywenderlich.placebook.model.Bookmark
 
 @Dao
 interface BookmarkDao {
-
   @Query("SELECT * FROM Bookmark ORDER BY name")
   fun loadAll(): LiveData<List<Bookmark>>
 

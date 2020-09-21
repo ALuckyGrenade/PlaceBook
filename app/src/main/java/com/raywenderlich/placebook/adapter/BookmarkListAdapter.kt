@@ -1,4 +1,3 @@
-
 package com.raywenderlich.placebook.adapter
 
 import android.support.v7.widget.RecyclerView
@@ -19,6 +18,7 @@ class BookmarkListAdapter(
   class ViewHolder(v: View,
                    private val mapsActivity: MapsActivity) :
       RecyclerView.ViewHolder(v) {
+
     val nameTextView: TextView =
         v.findViewById(R.id.bookmarkNameTextView) as TextView
     val categoryImageView: ImageView =

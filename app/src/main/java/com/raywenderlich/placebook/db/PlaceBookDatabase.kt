@@ -22,6 +22,7 @@ abstract class PlaceBookDatabase : RoomDatabase() {
             PlaceBookDatabase::class.java, "PlaceBook")
             .fallbackToDestructiveMigration()
             .build()
+
       }
       return instance as PlaceBookDatabase
     }

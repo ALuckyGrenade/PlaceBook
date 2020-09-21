@@ -1,4 +1,3 @@
-
 package com.raywenderlich.placebook.util
 
 import android.content.Context
@@ -118,6 +117,7 @@ object ImageUtils {
         inSampleSize *= 2
       }
     }
+
     return inSampleSize
   }
 }
